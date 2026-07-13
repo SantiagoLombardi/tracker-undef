@@ -92,9 +92,6 @@ const AboutModal: React.FC<{ onClose: () => void }> = ({ onClose }) => (
         <p className="text-zinc-600 dark:text-zinc-400 text-[13px] leading-relaxed mb-4">
           Los datos se almacenan localmente para garantizar la seguridad y privacidad de cada estudiante que use esta herramienta.
         </p>
-        <p className="text-zinc-600 dark:text-zinc-400 text-[13px] leading-relaxed mb-8">
-          podes revisar el repositorio (y contribuir) de este proyecto <a href="https://github.com/SantiagoLombardi/tracker-undef" target="_blank" rel="noopener noreferrer" className="text-zinc-900 dark:text-zinc-100 font-medium underline underline-offset-2 hover:text-zinc-500 dark:hover:text-zinc-300 transition-colors">acá</a>.
-        </p>
         <button
           onClick={onClose}
           className="w-full bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-medium py-3 rounded-xl hover:scale-[0.98] transition-transform"
